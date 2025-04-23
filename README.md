@@ -45,3 +45,11 @@ npm run dev
 
 Hurry—every second counts for those vacation dreams!
 
+## Images from Her computer 
+
+![Image 1](assets/image-1.png "Image 1 from assets")
+![Image 2](assets/image-2.png "Image 2 from assets")
+![Image 3](assets/image-3.png "Image 3 from assets")
+![Image 4](assets/image-4.png "Image 4 from assets")
+![Image 5](assets/image-5.png "Image 5 from assets")
+
