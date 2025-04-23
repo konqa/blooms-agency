@@ -36,7 +36,7 @@ function App() {
   return (
     <div className="text-center p-6 bg-white rounded-lg shadow-md">
       <Header touristName={touristName} showImage={showImage} />
-      {!showImage && <PinInput pin={pin} onPinChange={handlePinChange} onSubmit={handleSubmit} />}
+      {!showImage && <PinInput pin={pin} handlePinChange={handlePinChange} onSubmit={handleSubmit} />}
       {error && <p className="text-red-500 mt-4">{error}</p>}
       {showImage && <ButterflyGardenImage />}
     </div>
